@@ -10,6 +10,7 @@ Make sure that Env_CP.py, Env_CP_v2.py, Env_MC.py, and Env_MC_v2.py are in the s
 To change to the modified environments:
 
 in CartPole.py change: from Env_CP import CartPoleEnv
+
 to: from Env_CP_v2 import CartPoleEnv
 
 in MountainCar.py change: from Env_MC import MountainCarEnv
